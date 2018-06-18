@@ -1,0 +1,1 @@
+python /home/decimatedsanity/advantedge-test/Om/brain.py -y
