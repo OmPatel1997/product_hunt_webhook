@@ -22,7 +22,7 @@ def verify(dictionary_input):
 
 	india_list = []
 	# import the indian postal code locations into a list.
-	with open('scraped_india.csv', 'r') as csvfile:
+	with open('/Users/ompatel/Desktop/AdvantEdge/bamboo_home/xml-data/build-dir/PROD-MAIL-BUIL/src/scraped_india.csv', 'r') as csvfile:
 		pincodereader = csv.reader(csvfile, delimiter=',', quotechar='|')
 		for row in pincodereader:
 			for item in list(row):
